@@ -1,0 +1,83 @@
+.container {
+    width: 1000px;
+    height: 1000px;
+  
+  }
+  .header {
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    
+  }
+  img {
+    width: 1000px;
+    height: 300px;
+  
+  }
+  h3 {
+    position: absolute;
+    margin: 5px;
+      top: 185px;
+      left: 250px;
+      font-size: 25px;
+  
+  
+  
+  
+  }
+  h1 {
+    position: absolute;
+    margin: 5px;
+    top: 205px;
+    left: 250px;
+    font-size: 50px;
+  
+  
+  }
+  .body {
+    margin-top: 40px;
+    margin-left: 205px;
+    margin-right: 205px;
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #222;
+  
+  
+  }
+  
+  .footer {
+    margin-top: 40px;
+    margin-left: 125px;
+    margin-right: 125px;
+    text-align: center;
+    justify-content: center;
+    border: solid #383838 5px;
+    background: #383838;
+    color: white;
+    height: 100px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    
+  }
+  h2 {
+    display: center;
+    position: center;
+    margin-top: 15px;
+    
+    }
+  
+  block {
+    position: absolute;
+      top: 488px;
+      left: 130px;
+    color: white;
+    font-size: 100px; 
+  }
+  
+   block::before {
+    content: '“';
+     position: reverse;
+    /* then the styling */
+  }
